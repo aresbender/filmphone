@@ -1,0 +1,71 @@
+body,h1,h2,h3,p,div,ul,li,img,a,span,i,strong,b,em,dl,dt,dd{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#fff;}
+a:hover{ color:#fff; text-decoration:underline;}
+img{ border:0 none; vertical-align:top;}
+html{ font-size: 625%;}
+body{ background:#001431; font-family:"微软雅黑"; max-width: 640px; min-width: 320px; margin: 0 auto; font-size: 0.24rem;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:"."; display:block; height:0; visibility:hidden; clear:both;}
+/*ad*/
+#header{ width: 100%;}
+#header img{width: 100%;}
+/*标题*/
+.title{ width: 100%; height: 0.6rem; background: url(../images/tit-bg.png) no-repeat; color: #fffc00; line-height: 0.6rem; text-align: center; font-weight: 400;
+	background-size: 100% auto;
+	font-size: 0.3rem;
+}
+/*电影*/
+.movie{ width: 6.16rem; height: 5.74rem; margin: 0.07rem  auto 0; border: 0.02rem solid #0b2a56; border-radius: 0.08rem; box-shadow: 0 0 0.03rem 0.03rem #0a1e3b;}
+.movie-main{float: left; width: 5.92rem; height: 2.68rem; border-bottom: #002f71 1px dashed; margin: 0.11rem 0 0 0.13rem;}
+.movie-img{ float: left; width: 1.72rem; height: 2.46rem; border: 0.02rem solid #afa34d; border-radius: 0.02rem;}
+.movie-img img{ width: 100%;}
+.movie-text{ float: right; width: 3.94rem;}
+.movie-list{ width: 100%;}
+.movie-list li{ height: 0.48rem; line-height: 0.48rem;}
+.movie-list em{ float: left; width: 2.66rem; font-style: normal; color: #bababa; white-space: nowrap;/*强制让文本一行显示*/ overflow: hidden;/*溢出隐藏*/ text-overflow: ellipsis;/*文本溢出变为省略号*/}
+.movie-list span{ float: left; width: 1.28rem; color: #00a8ff;}
+.movie-list i{ margin-left: 2em;}
+.movie-btn{float: left; width:2.92rem; height: 0.49rem; background: #b40c0c;border: 0.02rem solid #370000;border-radius: 0.02rem; margin:0.1rem 0 0 0.79rem; line-height: 0.49rem;font-family: "微软雅黑"; font-size:0.28rem;}
+.movie-btn a{color:#ffe545;}
+.jingcai{ float:left;width: 5.92rem; height: 1.67rem; border-bottom: #002f71 1px dashed; margin: 0 0 0 0.13rem;}
+.jingcai-1{ float: left; display:block; width:100%; height: 0.39rem;font-size: 0.24rem; color: #00a8ff;margin-top:0.21rem;line-height: 0.24rem;}
+.jingcai-1 i{width: 0.26rem; height: 0.22rem; display: block; float: left; background: url(../images/sign.png) no-repeat; background-size: 100% auto;}
+.pinlun{ float: left; width:100%; height: 0.94rem; overflow: hidden;}
+.pinlun li{width:auto; height: 0.38rem;border: 1px solid #00337e; margin-right:0.07rem;margin-bottom: 0.07rem; background: #0048b1;font-size: 0.24rem;color:#ffe200;float: left;padding:0 0.05rem 0 0.05rem;}
+.qiang{float: left;width:100%; height: 1.1rem;}
+.qiang-1{float: left;display: block; width:100%; height: 0.52rem;text-align:center;font-weight:400;color:#ffeb00; font-size: 0.29rem;font-family: "微软雅黑";line-height: 0.52rem;margin:0;}
+.jian{float: left; width: ; height: 0.58rem;margin-left:0.43rem; font-size: 0.26rem; font-family:"黑体"; line-height:0.52rem;}
+.jian-1{display: block;float: left; width:2.52rem; height: 0.56rem; margin-right:0.2rem;background: url(../images/jian.png) no-repeat;background-size: 100% auto; color:#fff;padding-left:0.1rem; position: relative;}
+.jian-1 i{width:0; height: 0; border-width: 0.1rem;border-style: solid; border-color: transparent transparent transparent #FFFFFF; display: block;position: absolute; top:0.18rem; right:0.12rem;}
+.jian-2{display: block;float: left; width:2.52rem; height: 0.56rem;background: url(../images/jian.png) no-repeat;background-size: 100% auto; color:#fff;padding-left:0.1rem; position: relative;}
+.jian-2 i{width:0; height: 0; border-width: 0.1rem;border-style: solid; border-color: transparent transparent transparent #FFFFFF; display: block;position: absolute; top:0.18rem; right:0.12rem;}
+/*美国大片*/
+.title-2{ width: 100%; height: 0.6rem; background: url(../images/tit-bg.png) no-repeat; color: #fffc00; line-height: 0.6rem; text-align: center; font-weight: 400;
+	background-size: 100% auto;
+	font-size: 0.3rem;
+	margin:0.14rem 0 0.05rem 0;
+}
+.jingcai-2{ float:left;width: 5.92rem; height: 1.67rem;margin: 0 0 0 0.13rem;}
+.movie-2{ width: 6.16rem; height: 4.6rem; margin: 0.07rem  auto 0; border: 0.02rem solid #0b2a56; border-radius: 0.08rem; box-shadow: 0 0 0.03rem 0.03rem #0a1e3b;}
+/*儿童*/
+.title-3{ width: 100%; height: 0.6rem; background: url(../images/tit-bg.png) no-repeat; color: #fffc00; line-height: 0.6rem; text-align: center; font-weight: 400;
+	background-size: 100% auto;
+	font-size: 0.3rem;
+	margin:0.24rem 0 0.04rem 0;
+}
+.child{ position:relative;width:6.14rem;height: 2.23rem;float: left; padding-top:0.29rem; padding-bottom0.24rem;border-bottom: 1px dashed #002f71; margin-left: 0.12rem;;}
+.child img{width: 1.18rem; height: 1.68rem; border: 1px solid #f0df22; margin-left:0.03rem; display: block; float: left;}
+.child-right{width:4.08rem; float: left; padding-left:0.22rem;}
+.niubi{width:100%; height: 0.36rem; font-size: 0.3rem;color:#00a8ff;margin: 0; padding: 0;}
+.movie-list2{ width:4.08rem; float: left;}
+.movie-list2 li{ height: 0.48rem; line-height: 0.48rem;}
+.movie-list2 em{ float: left; width: 2.66rem; font-style: normal; color: #bababa; white-space: nowrap;/*强制让文本一行显示*/ overflow: hidden;/*溢出隐藏*/ text-overflow: ellipsis;/*文本溢出变为省略号*/}
+.movie-list2 span{ float: left; width: 1.28rem; color: #00a8ff;}
+.movie-list2 i{ margin-left: 2em;}
+.jiantou{position: absolute; top:0.8rem; right:0.2rem; }
+.jiantou img{width:0.21rem; height: 0.3rem; border:0 none;}
+.child-2 img{width: 1.18rem; height: 1.68rem; border: 1px solid #f0df22; margin-left:0.03rem; display: block; float: left;}
+.child-2{ position:relative;width:6.14rem;height: 2.23rem;float: left; padding-top:0.29rem; padding-bottom0.24rem;border-bottom: 1px dashed #002f71; margin-left: 0.12rem;margin-bottom: 0.27rem;}
+.jiantou-2{position: absolute; top:0.8rem; right:0.2rem; }
+.jiantou-2 img{width:0.21rem; height: 0.3rem;border:0 none;}
